@@ -1,19 +1,4 @@
 
-* {
-	padding: 0;
-	margin: 0;
-}
-
-body {
-	padding: 0;
-	margin: 0;
-}
-
-.title {
-	font-size: 400%;
-	font-weight: bold;
-}
-
 nav {
 	background: transparent;
 	border: transparent !important;
@@ -21,7 +6,7 @@ nav {
 	padding: 5vh 0;
 	font-weight: 800;
 	ul {
-		padding: 0 26%;
+		padding: 0 24% !important;
 		li a {
 			font-size: 160%;
 			padding: 0 30% !important;
@@ -38,10 +23,26 @@ header {
 	z-index: -1;
 	.life {
 		position: relative;
-		top: -80vh;
+		top: -64vh;
 		p {
 			color: white;
-			font-size: 200%;
+			font-size: 160%;
+			font-weight: bold;
+		}
+		p:first-child {
+			font-size: 340%;
+			font-weight: 800;
+			font-style: bolder;
+			letter-spacing: 10px;
+		}
+		.btn {
+			margin-top: 3%;
+			padding: 1.5% 4%;
+			height: 112%;
+			font-weight: 800;
+			font-style: bolder !important;
+			font-size: 120%;
+			border-radius: 6px;
 		}
 	}
 }

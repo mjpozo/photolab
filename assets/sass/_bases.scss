@@ -10,3 +10,35 @@ body {
 	font-family: 'Varela Round', sans-serif;
 	letter-spacing: 4px;
 }
+
+.btn {
+	margin-top: 3%;
+	padding: 1.5% 4%;
+	height: 112%;
+	font-weight: 800;
+	font-style: bolder !important;
+	font-size: 120%;
+	border-radius: 6px;
+	letter-spacing: 5px;
+}
+
+.cont-info {
+	span {
+		font-size: 180%;
+		font-weight: 800;
+		color: $verde;
+	}
+	p {
+		margin: 7% 0 5% 0;
+		font-size: 122%;
+		line-height: 219%;
+		color: grey;
+		strong {
+			color: black;
+			font-weight: bold;
+		}
+	}
+	.btn {
+		padding: 2% 7%;
+	}
+}

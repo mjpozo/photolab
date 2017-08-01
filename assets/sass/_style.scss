@@ -35,14 +35,67 @@ header {
 			font-style: bolder;
 			letter-spacing: 10px;
 		}
-		.btn {
-			margin-top: 3%;
-			padding: 1.5% 4%;
-			height: 112%;
-			font-weight: 800;
-			font-style: bolder !important;
-			font-size: 120%;
-			border-radius: 6px;
+	}
+}
+
+.two {
+	background: $fondo-section;
+	position: relative;
+	top: -40vh;
+}
+
+.section-two {
+	padding: 7% 9% 0 9%;
+	.img-hand {
+		height: 59.5vh;
+		background: url('../../dist/img/hand.png');
+		background-size: cover;
+		backgroun-position: top;
+		background-repeat: no-repeat;
+	}
+	.cont-info {
+		width: 120%;
+	}
+}
+
+.section-three {
+	position: relative;
+	top: -40vh;
+	padding-top: 7%;
+	img {
+		width: 80%;
+	}
+	.cont-info {
+		padding-top: 9%;
+	}
+}
+
+.four {
+	background: $fondo-section;
+	position: relative;
+	top: -43vh;
+}
+
+.section-four {
+	padding: 9% 9% 7% 7%;
+	.our-community {
+		height: 35vh;
+		padding-right: 3%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		span {
+			font-size: 160%;
+			font-weight: bold;
+			margin-bottom: 6%;
 		}
+		p {
+			letter-spacing: 3px;
+			line-height: 100%;
+		}
+	}
+	img {
+		width: 100%;
 	}
 }

@@ -13,6 +13,47 @@ body {
 
 .btn {
 	margin-top: 3%;
+	padding: 1% 2%;
+	height: 112%;
+	font-weight: 800;
+	font-style: bolder !important;
+	font-size: 90%;
+	border-radius: 6px;
+	letter-spacing: 3px;
+}
+
+.cont-info {
+	span {
+		font-size: 110%;
+		font-weight: 800;
+		color: $verde;
+	}
+	p {
+		margin: 7% 0 5% 0;
+		font-size: 85%;
+		line-height: 180%;
+		letter-spacing: 2px;
+		color: grey;
+		strong {
+			color: black;
+			font-weight: bold;
+		}
+	}
+	.btn {
+		padding: 2% 7%;
+	}
+}
+
+/*
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Varela Round', sans-serif;
+	letter-spacing: 4px;
+}
+
+.btn {
+	margin-top: 3%;
 	padding: 1.5% 4%;
 	height: 112%;
 	font-weight: 800;
@@ -42,3 +83,4 @@ body {
 		padding: 2% 7%;
 	}
 }
+*/

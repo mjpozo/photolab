@@ -12,7 +12,14 @@
 	<!-- nav -->
 	<nav>
 		<div class="nav-wrapper cont-nav">
-			<ul id="nav-mobile" class="center-align hide-on-med-and-down">
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="hide-on-med-and-down">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">PHOTOAPP</a></li>
+				<li><a href="#">DESIGN</a></li>
+				<li><a href="#">DOWNLOAD</a></li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
 				<li><a href="#">HOME</a></li>
 				<li><a href="#">PHOTOAPP</a></li>
 				<li><a href="#">DESIGN</a></li>
@@ -22,9 +29,8 @@
 	</nav>
 
 	<header>
-		<!--<img src="dist/img/bg1.jpg" alt="atardecer estrellado">-->
 		<div class="container cont-header">
-			<div class="col offset-l4 l4 text-header center life">
+			<div class="col offset-s1 s10 offset-m3 m6 offset-l4 l4 text-header center life">
 				<p class="title">YOUR LIFE, A PHOTO</p>
 				<p>print your life in a simple photo</p>
 				<a class="waves-effect waves-light btn">get started</a>
@@ -35,7 +41,7 @@
 	<section class="two">
 		<div class="container-fluid section-two">
 			<div class="row">
-				<div class="col l5">
+				<div class="col l5 hide-on-med-and-down">
 					<div class="cont-info">
 						<span>RAPPRESENT YOUR LIFE WITH A</span><br>
 						<span>SIMPLE PHOTO</span>
@@ -43,7 +49,14 @@
 						<a class="waves-effect waves-light btn">get started</a>
 					</div>
 				</div>
-				<div class="col l7 img-hand">
+				<div class="col s12 m12 hide-on-large-only center">
+					<div class="cont-info">
+						<span>RAPPRESENT YOUR LIFE WITH A SIMPLE PHOTO</span><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nihil excepturi sed asperiores eos tempore omnis, molestiae fugit, <strong>a quaerat amet</strong> tempora. Nihil, rerum ipsum sapiente voluptates sit dolores tempore beatae.</p>
+						<a class="waves-effect waves-light btn">get started</a>
+					</div>
+				</div>
+				<div class="col s12 m12 l7 img-hand">
 					<!-- contenedor imagen -->
 				</div>
 			</div>
@@ -53,13 +66,20 @@
 	<section class="three">
 		<div class="container-fluid section-three">
 			<div class="row">
-				<div class="col l5 center">
+				<div class="col s12 m6 l5 center">
 					<img src="dist/img/phone.png" alt="smartphone">
 				</div>
-				<div class="col offset-l2 l5">
+				<div class="col offset-l2 l5 hide-on-med-and-down">
 					<div class="cont-info">
 						<span>DESIGN</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolorum sequi tempora reprehenderit <br> laudantium! <strong>Commodi, dolores.</strong> Sunt esse et <br> maxime id sed similique tenetur modi <br> totam error, fugit facilis corporis.</p>
+						<a class="waves-effect waves-light btn">learn more</a>
+					</div>
+				</div>
+				<div class="col s12 m6 hide-on-large-only center">
+					<div class="cont-info">
+						<span>DESIGN</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolorum sequi tempora reprehenderit laudantium! <strong>Commodi, dolores.</strong> Sunt esse et maxime id sed similique tenetur modi totam error, fugit facilis corporis.</p>
 						<a class="waves-effect waves-light btn">learn more</a>
 					</div>
 				</div>
@@ -70,16 +90,20 @@
 	<section class="four">
 		<div class="container-fluid section-four">
 			<div class="row">
-				<div class="col l3 our-community center">
+				<div class="col l3 our-community hide-on-med-and-down center">
 					<span>OUR COMMUNITY</span>
 					<p>Lorem ipsum dolor sit <br> amet, consectetur <br> adipisicing elit.</p>
 				</div>
-				<div class="col l9">
+				<div class="col s12 offset-m2 m8 our-community hide-on-large-only center">
+					<span>OUR COMMUNITY</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col s12 m12 l9">
 					<div class="row">
-						<div class="col l6">
+						<div class="col s12 m6 l6">
 							<img src="img/car.jpg" alt="camioneta">
 						</div>
-						<div class="col l6">
+						<div class="col s12 m6 l6">
 							<img src="img/leaf.jpg" alt="hoja">
 						</div>
 					</div>
@@ -92,20 +116,19 @@
 		<div class="container-fluid section-five">
 			<div class="cont-form">
 				<div class="row">
-					<form class="col offset-l3 l6 center">
+					<form class="col s12 offset-m2 m8 offset-l3 l6 center">
 						<span>SUBSCRIBE TO US COMMUNITY</span>
 						<div class="row">
-							<div class="input-field col offset-l2 l8">
+							<div class="input-field col s12 offset-m1 m10 offset-l2 l8">
 								<div class="row">
-									<div class="col l10">
+									<div class="col s10 m10 l10">
 										<input id="email" type="email" class="validate">
 										<label for="email">YOUR EMAIL</label>
 									</div>
-									<div class="col l2 icon">
+									<div class="col s2 m2 l2 icon">
 										<i class="small material-icons">check</i>
 									</div>
 								</div>
-								
 							</div>
 						</div>
 					</form>
@@ -123,10 +146,16 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col l6 boton">
+				<div class="col m6 l6 boton hide-on-med-and-down">
 					<a class="waves-effect waves-light btn btn-apple">apple store</a>
 				</div>
-				<div class="col l6 boton">
+				<div class="col s12 boton hide-on-large-only center">
+					<a class="waves-effect waves-light btn btn-apple">apple store</a>
+				</div>
+				<div class="col m6 l6 boton hide-on-med-and-down">
+					<a class="waves-effect waves-light btn btn-play">play store</a>
+				</div>
+				<div class="col s12 boton hide-on-large-only center">
 					<a class="waves-effect waves-light btn btn-play">play store</a>
 				</div>
 			</div>
@@ -136,7 +165,7 @@
 	<section class="footer">
 		<div class="container-fluid section-footer">
 			<div class="row">
-				<div class="col l6 cont-footer">
+				<div class="col s12 m12 l6 cont-footer">
 					<p>CREDITS <span>|</span> PRIVACY <span>|</span> OUR TEAMS</p>
 					<p>Copyright by phototime - all right reserved</p>
 				</div>

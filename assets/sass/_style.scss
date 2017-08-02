@@ -35,14 +35,36 @@ header {
 	.life {
 		p {
 			color: white;
-			font-size: 100%;
 			font-weight: bold;
 		}
 		p:first-child {
-			font-size: 220%;
 			font-weight: 800;
 			font-style: bolder;
 			letter-spacing: 10px;
+		}
+		@media (min-width: 1px) and (max-width: 600px){
+			p {
+				font-size: 80%;
+			}
+			p:first-child {
+				font-size: 180%;
+			}
+		}
+		@media (min-width: 601px) and (max-width: 991px){
+			p {
+				font-size: 90%;
+			}
+			p:first-child {
+				font-size: 200%;
+			}
+		}
+		@media (min-width: 992px) and (max-width: 1400px){
+			p {
+				font-size: 100%;
+			}
+			p:first-child {
+				font-size: 220%;
+			}
 		}
 	}
 }
@@ -63,7 +85,15 @@ header {
 		background-repeat: no-repeat;
 	}
 	.cont-info {
-		width: 120%;
+		@media (min-width: 1px) and (max-width: 600px){
+			width: 100%;
+		}
+		@media (min-width: 601px) and (max-width: 991px){
+			width: 100%;
+		}
+		@media (min-width: 992px) and (max-width: 1400px){
+			width: 120%;
+		}
 	}
 }
 
@@ -79,7 +109,15 @@ header {
 		width: 80%;
 	}
 	.cont-info {
-		padding-top: 9%;
+		@media (min-width: 1px) and (max-width: 600px){
+			padding: 9%;
+		}
+		@media (min-width: 601px) and (max-width: 991px){
+			padding: 9%;
+		}
+		@media (min-width: 992px) and (max-width: 1400px){
+			padding-top: 9%;
+		}
 	}
 }
 
@@ -174,7 +212,9 @@ header {
 		}
 	}
 	.btn-apple {
-		float: right;
+		@media (min-width: 992px) and (max-width: 1400px){
+			float: right;
+		}
 	}
 }
 
